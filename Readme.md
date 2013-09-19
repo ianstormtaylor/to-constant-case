@@ -1,6 +1,6 @@
 # to-constant-case
 
-  Convert a non-constant-case string to a constant-case string.
+  Convert a string to a constant case.
 
 ## Installation
 
