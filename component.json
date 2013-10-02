@@ -2,11 +2,11 @@
   "name": "to-constant-case",
   "repo": "ianstormtaylor/to-constant-case",
   "license": "MIT",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Convert a string to a constant case.",
   "keywords": ["constant", "case", "constantcase", "string"],
   "dependencies": {
-    "ianstormtaylor/to-snake-case": "0.1.1"
+    "ianstormtaylor/to-snake-case": "0.1.2"
   },
   "development": {
     "component/assert": "*"

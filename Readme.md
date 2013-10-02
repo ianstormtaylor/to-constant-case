@@ -5,6 +5,7 @@
 ## Installation
 
     $ component install ianstormtaylor/to-constant-case
+    $ npm install to-constant-case
 
 ## Example
 
