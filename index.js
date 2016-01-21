@@ -1,13 +1,11 @@
 
-var snake = require('to-snake-case');
-
+var snake = require('to-snake-case')
 
 /**
- * Expose `toConstantCase`.
+ * Export.
  */
 
-module.exports = toConstantCase;
-
+module.exports = toConstantCase
 
 /**
  * Convert a `string` to constant case.
@@ -16,7 +14,6 @@ module.exports = toConstantCase;
  * @return {String}
  */
 
-
-function toConstantCase (string) {
-  return snake(string).toUpperCase();
+function toConstantCase(string) {
+  return snake(string).toUpperCase()
 }

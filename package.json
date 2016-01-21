@@ -1,16 +1,19 @@
 {
   "name": "to-constant-case",
+  "version": "1.0.0",
+  "description": "Convert a string to constant case.",
   "repository": "git://github.com/ianstormtaylor/to-constant-case.git",
   "license": "MIT",
-  "version": "0.1.2",
-  "description": "Convert a string to constant case.",
+  "dependencies": {
+    "to-snake-case": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
   "keywords": [
     "constant",
     "case",
     "constantcase",
     "string"
-  ],
-  "dependencies": {
-    "to-snake-case": "~0.1.2"
-  }
+  ]
 }
