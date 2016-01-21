@@ -14,12 +14,12 @@ $ npm install to-constant-case
 ## Example
 
 ```js
-var constant = require('to-constant-case');
+var toConstantCase = require('to-constant-case')
 
-constant('camelCase');  // "CAMEL_CASE"
-constant('snake_case'); // "SNAKE_CASE"
-constant('dot.case');   // "DOT_CASE"
-constant('weird[case'); // "WEIRD_CASE"
+toConstantCase('camelCase')   // "CAMEL_CASE"
+toConstantCase('snake_case')  // "SNAKE_CASE"
+toConstantCase('dot.case')    // "DOT_CASE"
+toConstantCase('weird[case')  // "WEIRD_CASE"
 ```
 
 
